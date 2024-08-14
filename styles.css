@@ -1,1 +1,22 @@
-/*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: space-between;
+	flex-direction:row;
+    align-items: center;
+}
+.hero img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-content {
+    text-align: center;
+}
+.explore-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff5733; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
